@@ -42,3 +42,16 @@ Full process Screenshot
 ![image](https://user-images.githubusercontent.com/97012694/147903180-2f6ca566-2a7f-46f2-bfc2-cd0c7e68691d.png)
 
 
+
+
+*Note: if some libraries are missing then plz find the attached libraries 
+![image](https://user-images.githubusercontent.com/97012694/147903536-a10ba49b-6b28-4fb7-ab4d-76780b938fbb.png)
+
+![image](https://user-images.githubusercontent.com/97012694/147903568-4e6b62eb-c527-4b98-8352-c458e71af652.png)
+
+![image](https://user-images.githubusercontent.com/97012694/147903584-0dcb6531-6c85-4881-8d46-a136e1a9a911.png)
+
+![image](https://user-images.githubusercontent.com/97012694/147903608-85ca8c3e-0b3f-4717-927a-4ea324079cd3.png)
+
+
+
