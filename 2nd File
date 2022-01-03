@@ -1,0 +1,24 @@
+// This script reads the first line out of each document and outputs only that line, ignoring the remaining lines.
+
+newline = System.getProperty("line.separator");
+
+
+for ( int i = 0; i < dataContext.getDataCount(); i++ ) {
+       InputStream is = dataContext.getStream(i);
+       Properties props = dataContext.getProperties(i);
+
+       reader = new BufferedReader(new InputStreamReader(is));
+       outData = new StringBuffer();
+
+       while ( (line = reader.readLine()) != null ) {
+
+          // Break after the first line
+          outData.append(line);
+          outData.append(newline);
+          break;
+      }
+
+     is = new ByteArrayInputStream(outData.toString().getBytes("UTF-8"));
+
+     dataContext.storeStream(is, props);
+}
